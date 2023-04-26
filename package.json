@@ -5,10 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev_host": "vite --host",
+    "dev_h": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "vue": "^3.2.47"
   },
   "devDependencies": {
